@@ -1,0 +1,27 @@
+main {
+  max-width: 80ch;
+  margin: 0px auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  .call-to-action {
+    background-color: var(--accent-color);
+    color: var(--text-secondary);
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    user-select: none;
+    width: fit-content;
+    align-self: center;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
+  }
+
+  p {
+    font-size: large;
+  }
+}
