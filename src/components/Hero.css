@@ -7,8 +7,9 @@
 }
 
 #hero-img {
-    height: 75vh;
+    height: auto;
     width: 100%;
+    max-height: calc(100vh - 3.5rem); /* 3.5rem is the height of the navbar */
     object-fit: cover;
     filter: brightness(0.6); 
     user-select: none;
