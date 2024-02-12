@@ -3,6 +3,7 @@
   --text-secondary: #fff;
   --text-link: #8bc3ff;
   --accent-color: #8C1515;
+  --accent-gradient: linear-gradient(45deg, rgb(196, 0, 0) 0%, #8C1515 100%);
 }
 
 body {
