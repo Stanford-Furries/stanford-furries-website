@@ -1,3 +1,4 @@
+// import Album from "./Album";
 import ContentBlock from "./ContentBlock";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
@@ -45,6 +46,9 @@ function App() {
 						have a paw-some time :3
 					</p>
 				</ContentBlock>
+				{/* <ContentBlock>
+					<Album />
+				</ContentBlock> */}
 				<Spacer type="medium" />
 				<a
 					target="#"
