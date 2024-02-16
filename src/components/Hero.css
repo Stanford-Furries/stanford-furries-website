@@ -1,12 +1,12 @@
-#hero-container {
+.hero-container {
     position: relative;
-
-    h1 {
-        font-size: 3rem;
-    }
 }
 
-#hero-img {
+.hero-container h1 {
+    font-size: 3rem;
+}
+
+.hero-img {
     height: auto;
     width: 100%;
     max-height: calc(100vh - 3.5rem); /* 3.5rem is the height of the navbar */
@@ -15,7 +15,7 @@
     user-select: none;
 }
 
-#hero-overlay {
+.hero-overlay {
     text-align: center;
     position: absolute;
     color: var(--text-secondary);

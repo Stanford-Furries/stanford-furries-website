@@ -2,8 +2,8 @@ footer {
     background-color: var(--accent-color);
     color: var(--text-secondary);
     padding: 2rem 2rem;
+}
 
-    a {
-        color: var(--text-link);
-    }
+footer a {
+    color: var(--text-link);
 }

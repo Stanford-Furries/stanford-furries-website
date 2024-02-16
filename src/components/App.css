@@ -4,25 +4,25 @@ main {
   padding: 2rem;
   display: flex;
   flex-direction: column;
+}
 
-  .call-to-action {
-    background-color: var(--accent-color);
-    background: var(--accent-gradient);
-    color: var(--text-secondary);
-    padding: 0.5rem 2rem;
-    border-radius: 0.5rem;
-    text-decoration: none;
-    font-weight: bold;
-    user-select: none;
-    width: fit-content;
-    align-self: center;
+main .call-to-action {
+  background-color: var(--accent-color);
+  background: var(--accent-gradient);
+  color: var(--text-secondary);
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  user-select: none;
+  width: fit-content;
+  align-self: center;
 
-    &:hover {
-      filter: brightness(0.9);
-    }
+  &:hover {
+    filter: brightness(0.9);
   }
+}
 
-  p {
-    font-size: large;
-  }
+main p {
+  font-size: large;
 }
