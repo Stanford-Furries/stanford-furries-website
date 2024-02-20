@@ -6,22 +6,22 @@ function Album() {
 		{
 			src: "fas-quad.jpg",
 			alt: "alt text",
-			desc: "Image 1: furries get bamboozled",
+			desc: "Furries on the quad! :3",
 		},
 		{
-			src: "fas-quad.jpg",
+			src: "fas-peek.jpg",
 			alt: "alt text",
-			desc: "Image 2: furries!",
+			desc: "Peek-a-boo! x3",
 		},
 		{
-			src: "fas-quad.jpg",
+			src: "fas-bicycle.jpg",
 			alt: "alt text",
-			desc: "Image 3: furries yet again",
+			desc: "Biking through the quad! :D",
 		},
 		{
-			src: "fas-quad.jpg",
+			src: "fas-boardgames1.png",
 			alt: "alt text",
-			desc: "Image 4: furries... lmao",
+			desc: "Board games with friends! :>",
 		},
 	];
 
