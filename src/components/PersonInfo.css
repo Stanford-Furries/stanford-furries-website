@@ -1,0 +1,44 @@
+.person-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.person-name {
+  color: var(--text-primary);
+  font-size: 1.4rem;
+}
+
+.person-role {
+  color: var(--accent-color);
+  font-size: 1rem;
+}
+
+.person-desc {
+  color: gray;
+  font-size: 1.1rem;
+}
+
+.person-info-group {
+  padding: 0.4rem 0;
+}
+
+.person-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.person-contact-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.panel-pfp {
+  border-radius: 10%;
+  width: 140px;
+  height: 140px;
+  margin-right: 2em;
+}
