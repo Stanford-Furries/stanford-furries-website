@@ -17,13 +17,6 @@ function App() {
         alt="Furries at Stanford logo"
       />
       <main>
-        <a
-          target="#"
-          href="https://discord.gg/DdS4ZwQUW9"
-          className="call-to-action"
-        >
-          Join Us
-        </a>
         <Spacer type="medium" />
         <ContentBlock>
           <h2>What We Do</h2>
@@ -38,23 +31,18 @@ function App() {
           <h2>How do I get involved?</h2>
           <Spacer type="small" />
           <p>
-            We're most active on Discord. Alternatively, if you want to meet
-            more furries in the area, join our Telegram group. You don't have to
+            We advertise and plan campus-wide events throughout the school year!
+            In terms of chatting, we're most active on <b>Discord</b>. To access
+            a link, you'll need to attend one of our in-person events or get an
+            invitation from a current member. Alternatively, if you want to meet
+            more furries in the area, join our Telegram group! You don't have to
             be a furry to join–if you want to see what it's all about, stop by.
             We guarantee you'll have a paw-some time :3
           </p>
         </ContentBlock>
         {/* <ContentBlock>
-			<Album />
-		</ContentBlock> */}
-        <Spacer type="medium" />
-        <a
-          target="#"
-          href="https://discord.gg/DdS4ZwQUW9"
-          className="call-to-action"
-        >
-          Join Our Discord
-        </a>
+          <Album />
+        </ContentBlock> */}
       </main>
       <Footer />
     </div>
