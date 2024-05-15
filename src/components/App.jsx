@@ -32,14 +32,24 @@ function App() {
           <Spacer type="small" />
           <p>
             We advertise and plan campus-wide events throughout the school year!
-            In terms of chatting, we're most active on <b>Discord</b>. To access
-            a link, you'll need to attend one of our in-person events or get an
-            invitation from a current member. Alternatively, if you want to meet
-            more furries in the area, join our Telegram group! You don't have to
-            be a furry to join–if you want to see what it's all about, stop by.
-            We guarantee you'll have a paw-some time :3
+            Join{" "}
+            <a href="https://forms.gle/K7eRA3LmsCuM7eDG7">our mailing list</a>{" "}
+            to be informed of any that are upcoming. You don't have to be a
+            furry to join–if you want to see what it's all about, stop by. We
+            guarantee you'll have a paw-some time :3
           </p>
         </ContentBlock>
+        <ContentBlock>
+          <h2>How do I get in contact?</h2>
+          <Spacer type="small" />
+          <p>
+            We're most active on Discord. To access a link, you'll need to
+            attend one of our in-person events or get an invitation from a
+            current member. Alternatively, if you want to meet more furries in
+            the area, join our Telegram group!
+          </p>
+        </ContentBlock>
+        <Spacer type="medium" />
         {/* <ContentBlock>
           <Album />
         </ContentBlock> */}
