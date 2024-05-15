@@ -4,22 +4,22 @@ function Album() {
 	// May be moved into props if we need multiple
 	const imgContents = [
 		{
-			src: "fas-quad.jpg",
+			src: "fas-stanfordtree.jpg",
 			alt: "alt text",
-			desc: "Furries on the quad! :3",
+			desc: "Cameos with the Stanford tree! x3",
 		},
 		{
-			src: "fas-peek.jpg",
+			src: "fas-artjam.png",
 			alt: "alt text",
-			desc: "Peek-a-boo! x3",
+			desc: "Art events and movie nights! :3",
 		},
 		{
-			src: "fas-bicycle.jpg",
+			src: "fas-meetngreet.jpg",
 			alt: "alt text",
-			desc: "Biking through the quad! :D",
+			desc: "Social hangouts and meetn'greets! :D",
 		},
 		{
-			src: "fas-boardgames1.png",
+			src: "fas-boardgames.png",
 			alt: "alt text",
 			desc: "Board games with friends! :>",
 		},
