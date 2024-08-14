@@ -9,7 +9,7 @@ function Hero(props) {
 					{props.title}
 				</h1>
 				<p className="animate__animated animate__fadeInDown animate__delay-1s">
-					{props.subtext}
+					<i>{props.subtext}</i>
 				</p>
 			</div>
 		</div>

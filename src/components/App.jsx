@@ -11,8 +11,8 @@ function App() {
 		<div className="App">
 			<Navbar />
 			<Hero
-				// title="Furries at Stanford"
-				// subtext="We like furries :3"
+				title="Furries at Stanford"
+				subtext="The official furry club at Stanford University!"
 				src="fas-peek.jpg"
 				alt="Furries at Stanford logo"
 			/>

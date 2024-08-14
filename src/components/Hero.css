@@ -3,7 +3,11 @@
 }
 
 .hero-container h1 {
-    font-size: 3rem;
+    font-size: max(40pt, 6vw);
+}
+
+.hero-container p {
+    font-size: max(20pt, 1.6vw);
 }
 
 .hero-img {
@@ -19,7 +23,14 @@
     text-align: center;
     position: absolute;
     color: var(--text-secondary);
-    top: 50%;
+    top: 45%;
     left: 50%;
+    width: 80%;
     transform: translate(-50%, -50%);
+}
+
+@media (max-width: 900px) {
+    .hero-container p {
+        font-size: 0px !important;
+    }
 }
