@@ -13,7 +13,7 @@ function App() {
 			<Hero
 				// title="Furries at Stanford"
 				// subtext="We like furries :3"
-				src="fas-quad.jpg"
+				src="fas-peek.jpg"
 				alt="Furries at Stanford logo"
 			/>
 			<main>
