@@ -10,6 +10,12 @@
     cursor: pointer;
 }
 
+.navbar-ext-icon {
+    width: 1.2em;
+    height: 1.2em;
+    margin-left: 0.3em;
+}
+
 .navbar-icons img {
     height: 2.5rem;
     aspect-ratio: 1/1;
@@ -22,6 +28,12 @@
     margin: 0.7rem;
 }
 
+.navbar-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .navbar-links a {
     text-decoration: none;
     background-color: #f2f2f2;
@@ -29,6 +41,8 @@
     font-weight: bold;
     color: inherit;
     background-color: var(--accent-color);
+    display: flex;
+    align-items: center;
 }
 
 .navbar-links a:hover {

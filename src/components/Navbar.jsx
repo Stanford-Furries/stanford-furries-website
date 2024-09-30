@@ -28,24 +28,48 @@ function Navbar() {
 				/>
 			</div>
 			<div className="navbar-links" id="navbar-links">
-				{/* <a target="#" href="https://discord.gg/DdS4ZwQUW9">Discord</a> */}
-				<a target="#" href="https://t.me/stanfordfurries">
-					Telegram
-				</a>
 				<a target="#" href="https://twitter.com/stanfordfurries">
-					X
+					Twitter
+					<img
+						className="navbar-ext-icon"
+						src="./ext-link-icon.png"
+						alt="External link icon"
+					/>
 				</a>
 				<a target="#" href="https://www.instagram.com/stanfordfurries">
 					Instagram
+					<img
+						className="navbar-ext-icon"
+						src="./ext-link-icon.png"
+						alt="External link icon"
+					/>
+				</a>
+				<a target="#" href="https://t.me/stanfordfurries">
+					Telegram
+					<img
+						className="navbar-ext-icon"
+						src="./ext-link-icon.png"
+						alt="External link icon"
+					/>
 				</a>
 				<a
 					target="#"
 					href="https://bsky.app/profile/stanfordfurries.bsky.social"
 				>
 					Bluesky
+					<img
+						className="navbar-ext-icon"
+						src="./ext-link-icon.png"
+						alt="External link icon"
+					/>
 				</a>
 				<a target="#" href="https://forms.gle/K7eRA3LmsCuM7eDG7">
 					Mailing List
+					<img
+						className="navbar-ext-icon"
+						src="./ext-link-icon.png"
+						alt="External link icon"
+					/>
 				</a>
 			</div>
 		</nav>
