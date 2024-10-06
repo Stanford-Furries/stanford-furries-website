@@ -1,7 +1,7 @@
 import "./Album.css";
 
 function Album() {
-	// May be moved into props if we need multiple
+	// May be moved into props if multiple Albums are needed
 	const imgContents = [
 		{
 			src: "fas-stanfordtree.jpg",
