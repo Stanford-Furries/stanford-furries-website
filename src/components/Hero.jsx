@@ -1,4 +1,5 @@
 import "./Hero.css";
+import Spacer from "./Spacer";
 
 function Hero(props) {
 	return (
@@ -11,6 +12,8 @@ function Hero(props) {
 				<p className="animate__animated animate__fadeInDown animate__delay-1s">
 					<i>{props.subtext}</i>
 				</p>
+				{props.children == null ? null : <Spacer type="smedium" />}
+				{props.children}
 			</div>
 		</div>
 	);
