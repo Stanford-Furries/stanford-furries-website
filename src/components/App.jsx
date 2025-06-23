@@ -52,12 +52,14 @@ function App() {
 					<h2>How do I get in contact?</h2>
 					<Spacer type="small" />
 					<p>
-						We're most active on Discord. To access a link, you'll
-						need to attend one of our in-person events or get an
-						invitation from a current member. Alternatively, if you
-						want to meet more furries in the area, join our Telegram
-						group! For any other inquiries, feel free to send us an
-						email at{" "}
+						We're most active on{" "}
+						<a href="https://discord.gg/P2pPZUPgEw">
+							our Discord server
+						</a>
+						. You can gain full access to the server by verifying a
+						Stanford email. Alternatively, you can attend one of our
+						in-person events or be invited by a current member. For
+						any other inquiries, feel free to send us an email at{" "}
 						<a href="mailto:furries.at.stanford@gmail.com">
 							furries.at.stanford@gmail.com
 						</a>
