@@ -1,6 +1,5 @@
 import Album from "./Album";
 import ContentBlock from "./ContentBlock";
-import DiscordCTAButton from "./DiscordCTAButton";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Spacer from "./Spacer";
@@ -17,9 +16,6 @@ function App() {
 				src="fas-peek.jpg"
 				alt="Furries at Stanford logo"
 			>
-				<p className="animate__animated animate__fadeInDown animate__delay-2s">
-					<DiscordCTAButton link="https://discord.gg/P2pPZUPgEw" />
-				</p>
 			</Hero>
 			<main>
 				<Spacer type="medium" />
@@ -52,14 +48,9 @@ function App() {
 					<h2>How do I get in contact?</h2>
 					<Spacer type="small" />
 					<p>
-						We're most active on{" "}
-						<a href="https://discord.gg/P2pPZUPgEw">
-							our Discord server
-						</a>
-						. You can gain full access to the server by verifying a
-						Stanford email. Alternatively, you can attend one of our
-						in-person events or be invited by a current member. For
-						any other inquiries, feel free to send us an email at{" "}
+						We're most active on Discord. To access a link, you'll
+						need to attend one of our in-person events or get an
+						invitation from a current member. For personal inquiries, send us an email at{" "}
 						<a href="mailto:furries.at.stanford@gmail.com">
 							furries.at.stanford@gmail.com
 						</a>
@@ -88,8 +79,6 @@ function App() {
 						frameborder="0"
 					></iframe>
 				</ContentBlock>
-				<Spacer type="small" />
-				<DiscordCTAButton link="https://discord.gg/P2pPZUPgEw" />
 				<Spacer type="medium" />
 			</main>
 			<Footer />
