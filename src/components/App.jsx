@@ -35,7 +35,7 @@ function App() {
 					<p>
 						We advertise and plan campus-wide events throughout the
 						school year! Join{" "}
-						<a href="https://forms.gle/K7eRA3LmsCuM7eDG7">
+						<a href="https://forms.gle/z6BzRPwACAmpUGtdA">
 							our mailing list
 						</a>{" "}
 						to be informed of any that are upcoming. You don't have

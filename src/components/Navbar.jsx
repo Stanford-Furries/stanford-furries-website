@@ -62,7 +62,7 @@ function Navbar() {
             alt="External link icon"
           />
         </a>
-        <a target="#" href="https://forms.gle/K7eRA3LmsCuM7eDG7">
+        <a target="#" href="https://forms.gle/z6BzRPwACAmpUGtdA">
           Mailing List
           <img
             className="navbar-ext-icon"
